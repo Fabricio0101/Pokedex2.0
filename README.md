@@ -7,13 +7,13 @@ Ta esperando o quê? Venha buscar o seu Pokémon!!
 ## Capturas
 
 <p aling="center">
-    <img src="assets/To_Readme/PokedexImage1.jpeg.png">
+    <img src="assets/To_Readme/PokedexImage1.png">
 </p>
 
 <p aling="center">
-    <img src="assets/To_Readme/PokedexImage2.jpeg.png">
+    <img src="assets/To_Readme/PokedexImage2.png">
 </p>
 
 <p aling="center">
-    <img src="assets/To_Readme/PokedexImage3.jpeg.png">
+    <img src="assets/To_Readme/PokedexImage3.png">
 </p>
