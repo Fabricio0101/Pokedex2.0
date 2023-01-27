@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="static/css/twostyle.css" />
+    <link rel="icon" href="../static/img/pokeball.png">
+    <title>Resultado</title>
+</head>
+<body>
+    <div class="conteudo-po">
+        <div class="title">
+            <h1>{{pokemon.nomePokemon}}</h1>
+            <div class="icon">
+                <img src="{{pokemon.sprite}}" alt="{{pokemon.nomePokemon}}">
+            </div>
+        </div>
+        <div class="desc">
+            {% if pokemon.type_secondary == "Nenhum" %}
+                <p>Tipo: {{pokemon.type_primary}}</p>
+            {% else %}
+                <p>Tipo: {{pokemon.type_primary}}, {{pokemon.type_secondary}}</p>
+            {% endif %}
+            <p>Peso: {{pokemon.weight}}kg</p>
+            <p>Tamanho: {{pokemon.height}}m</p>
+            <br>
+            <div class="stats">
+                <p>HP: {{pokemon.hp}}</p>
+                <p>Ataque: {{pokemon.attack}}</p>
+                <p>Defesa: {{pokemon.defense}}</p>
+                <p>Ataque Especial: {{pokemon.special_attack}}</p>
+                <p>Defesa Especial: {{pokemon.special_defense}}</p>
+                <p>Velocidade: {{pokemon.speed}}</p>
+                <button type="submit" class="voltar" onclick="history.go(-1)">Voltar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

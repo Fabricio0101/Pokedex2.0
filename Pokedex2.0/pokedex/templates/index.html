@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="static/css/style.css" />
+    <link rel="icon" href="../static/img/pokeball.png">
+    <title>Pokedex</title>
+</head>
+<body>
+    <div class="div-all">
+        <div class="conteudo">
+            <img src="../static/img/pokemon-23-logo.png">
+            <p>Procure tudo sobre o seu pokemon!</p>
+
+            <form action="/pokemon" method="post">
+                <div class="txt-field">
+                    <input type="text" name="pokemon" id="pokemon" required>
+                    <label for="pokemon">Digite o nome do seu Pokémon</label>
+                </div>
+                    <button type="submit" class="botao">Procurar Pokemon</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
